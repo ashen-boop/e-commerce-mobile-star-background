@@ -2115,9 +2115,9 @@
 const isMobileParticles = window.matchMedia('(max-width: 600px)').matches;
 
 const particleCount = isMobileParticles ? 35 : 80;   // fewer on mobile
-const spreadX = isMobileParticles ? 10 : 8;          // wider on mobile
-const spreadY = isMobileParticles ? 7  : 6;
-const spreadZ = isMobileParticles ? 5  : 4;
+const spreadX = isMobileParticles ? 18 : 8;          // wider on mobile
+const spreadY = isMobileParticles ? 12 : 6;
+const spreadZ = isMobileParticles ? 8  : 4;
 
 const particleGeo = new THREE.BufferGeometry();
 const positions = new Float32Array(particleCount * 3);
